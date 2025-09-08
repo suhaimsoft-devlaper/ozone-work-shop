@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="OZON Detailing offers premium car and bike detailing, ceramic coating, underbody coating, painting, accessories, and interior cleaning services. Discover perfection for your vehicle.">
+  <meta name="keywords" content="car detailing, bike detailing, ceramic coating, car wash, foam wash, auto detailing, OZON Detailing, paint protection film, headlight restoration, underbody coating, custom painting, graphene coating, borophane coating, window tinting, tyre dressing, premium car wash">
+  <meta name="author" content="OZON Detailing">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#007bff">
+  <meta property="og:title" content="OZON Detailing & Car Wash - Premium Auto Care">
+  <meta property="og:description" content="Transform your vehicle with our expert detailing services and quality accessories.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:url" content="https://www.your-ozon-website.com/">
+  <meta property="og:site_name" content="OZON Detailing & Car Wash">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="canonical" href="https://www.your-ozon-website.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+  <title>OZON Detailing & Car Wash | Premium Auto Care</title>
+  <style>
+    :root {
+      --primary-color: #007bff;
+      --secondary-color: #343a40;
+      --background-light: #f8f9fa;
+      --background-white: #ffffff;
+      --text-color: #6c757d;
+      --heading-color: #212529;
+      --border-color: #dee2e6;
+      --whatsapp-color: #55a372;
+      --heading-font: 'Poppins', sans-serif;
+      --dark-bg: #1a1a1a;
+      --dark-text: #d1d1d1;
+      --dark-heading: #ffffff;
+      --dark-border: #2a2a2a;
+      --dark-secondary: #4a4a4a;
+      --dark-light: #2c2c2c;
+      --night-sky: #0a1d37;
+      --star-color: #ffffff;
+      --moon-glow: #e6f0fa;
+      --particle-color: rgba(255, 255, 255, 0.7);
+      --headlight-glow: rgba(255, 255, 255, 0.5);
+      --exhaust-smoke: rgba(200, 200, 200, 0.4);
+    }
+
+    [data-theme="dark"] {
+      --background-white: var(--dark-bg);
+      --background-light: var(--dark-light);
+      --text-color: var(--dark-text);
+      --heading-color: var(--dark-heading);
+      --border-color: var(--dark-border);
+      --secondary-color: var(--dark-secondary);
+      --night-sky: #1c2526;
+      --moon-glow: #b0c4de;
+      --particle-color: rgba(200, 200, 200, 0.7);
+      --exhaust-smoke: rgba(150, 150, 150, 0.4);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: var(--text-color);
+      line-height: 1.8;
+      background: var(--background-white);
+      font-size: clamp(14px, 2.5vw, 16px);
+    }
+
+    h1, h2, h3, h4 {
+      font-family: var(--heading-font);
+      font-weight: 600;
+      color: var(--heading-color);
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 clamp(10px, 3vw, 20px);
+    }
+
+    .section {
+      padding: clamp(50px, 10vw, 80px) 0;
+      position: relative;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: clamp(25px, 5vw, 40px);
+    }
+
+    .section-title h2 {
+      font-size: clamp(1.8rem, 5vw, 2.8rem);
+      font-weight: 700;
+      padding-bottom: 8px;
+      position: relative;
+    }
+
+    .section-title h2::after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 3px;
+      background: var(--primary-color);
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: clamp(12px, 2.5vw, 15px) clamp(20px, 4vw, 35px);
+      background: var(--primary-color);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: clamp(14px, 2.2vw, 16px);
+      transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn:hover {
+      background: #0056b3;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .fade-in-section {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .fade-in-section.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .slide-in {
+      opacity: 0;
+      transform: translateX(-30px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .slide-in.is-visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: var(--background-white);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: clamp(10px, 2.5vw, 15px) 0;
+    }
+
+    .navbar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .navbar-brand {
+      font-size: clamp(1.5rem, 3.5vw, 1.8rem);
+      font-weight: 700;
+      color: var(--primary-color);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-img {
+      height: clamp(32px, 6vw, 40px);
+      width: auto;
+    }
+
+    .navbar-brand .short-name {
+      display: none;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: clamp(20px, 4vw, 30px);
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .nav-links li {
+      margin-left: clamp(20px, 4vw, 35px);
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--secondary-color);
+      font-weight: 500;
+      font-size: clamp(14px, 2.2vw, 16px);
+      position: relative;
+      padding-bottom: 5px;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover, .nav-links a.active {
+      color: var(--primary-color);
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background: var(--primary-color);
+      transition: width 0.3s;
+    }
+
+    .nav-links a:hover::after, .nav-links a.active::after {
+      width: 100%;
+    }
+
+    .nav-social {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .nav-social a {
+      color: var(--secondary-color);
+      font-size: clamp(1rem, 2.2vw, 1.2rem);
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    .nav-social a:hover {
+      color: var(--primary-color);
+      transform: scale(1.15);
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      font-size: clamp(1rem, 2.2vw, 1.2rem);
+      color: var(--secondary-color);
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    .theme-toggle:hover {
+      color: var(--primary-color);
+    }
+
+    .nav-toggle {
+      display: none;
+      font-size: clamp(1.2rem, 3vw, 1.5rem);
+      color: var(--primary-color);
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    #home {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(135deg, #eef7ff 0%, var(--background-white) 100%);
+      padding: clamp(40px, 12vh, 80px) 0;
+    }
+
+    .home-content h1 {
+      font-size: clamp(2rem, 7vw, 4.5rem);
+      margin-bottom: 0.6em;
+    }
+
+    .home-content p {
+      font-size: clamp(1rem, 2.8vw, 1.3rem);
+      max-width: 650px;
+      margin: 0 auto clamp(20px, 4vw, 30px);
+    }
+
+    .about-container {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: clamp(25px, 6vw, 60px);
+      align-items: center;
+    }
+
+    .about-content h3 {
+      font-size: clamp(1.8rem, 4.5vw, 2.4rem);
+      color: var(--primary-color);
+      margin-bottom: 18px;
+    }
+
+    .about-content p {
+      font-size: clamp(14px, 2.2vw, 16px);
+    }
+
+    .car-animation-container {
+      position: relative;
+      min-height: clamp(200px, 45vw, 280px);
+      max-width: 500px;
+      margin: 0 auto;
+      background: var(--night-sky);
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+      perspective: 1000px;
+    }
+
+    .night-sky {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, var(--night-sky) 0%, #2c3e50 100%);
+    }
+
+    .star {
+      position: absolute;
+      background: var(--star-color);
+      border-radius: 50%;
+      opacity: 0;
+      animation: twinkle 2s infinite;
+    }
+
+    .star:nth-child(1) { width: 2px; height: 2px; top: 10%; left: 15%; animation-delay: 0s; }
+    .star:nth-child(2) { width: 3px; height: 3px; top: 20%; left: 30%; animation-delay: 0.5s; }
+    .star:nth-child(3) { width: 2px; height: 2px; top: 15%; left: 50%; animation-delay: 1s; }
+    .star:nth-child(4) { width: 3px; height: 3px; top: 25%; left: 70%; animation-delay: 1.5s; }
+    .star:nth-child(5) { width: 2px; height: 2px; top: 30%; left: 20%; animation-delay: 0.3s; }
+    .star:nth-child(6) { width: 3px; height: 3px; top: 40%; left: 40%; animation-delay: 0.8s; }
+    .star:nth-child(7) { width: 2px; height: 2px; top: 35%; left: 60%; animation-delay: 1.2s; }
+    .star:nth-child(8) { width: 3px; height: 3px; top: 45%; left: 10%; animation-delay: 0.6s; }
+    .star:nth-child(9) { width: 2px; height: 2px; top: 50%; left: 25%; animation-delay: 0.9s; }
+    .star:nth-child(10) { width: 3px; height: 3px; top: 55%; left: 45%; animation-delay: 1.3s; }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+
+    .moon {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      width: clamp(35px, 9vw, 45px);
+      height: clamp(35px, 9vw, 45px);
+      background: #f1f1f1;
+      border-radius: 50%;
+      box-shadow: 0 0 18px 6px var(--moon-glow);
+      animation: glow 3s ease-in-out infinite;
+    }
+
+    @keyframes glow {
+      0%, 100% { box-shadow: 0 0 18px 6px var(--moon-glow); }
+      50% { box-shadow: 0 0 24px 10px var(--moon-glow); }
+    }
+
+    .road-and-car {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 40%;
+      transform-style: preserve-3d;
+    }
+
+    .road {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+      background: #333;
+      overflow: hidden;
+    }
+
+    .road::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 8px;
+      background: repeating-linear-gradient(90deg, #fff 0, #fff 20px, transparent 20px, transparent 40px);
+      top: 50%;
+      transform: translateY(-50%);
+      animation: moveRoad 0.5s linear infinite;
+    }
+
+    @keyframes moveRoad {
+      0% { transform: translateY(-50%) translateX(0); }
+      100% { transform: translateY(-50%) translateX(-40px); }
+    }
+
+    .animated-car-body {
+      position: absolute;
+      bottom: 60px;
+      left: 20%;
+      width: 120px;
+      height: 40px;
+      background: var(--primary-color);
+      border-radius: 8px 8px 0 0;
+      animation: carMove 0.3s ease-in-out infinite alternate, carShake 2s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    .animated-car-top {
+      position: absolute;
+      top: -20px;
+      left: 20%;
+      width: 70px;
+      height: 20px;
+      background: var(--primary-color);
+      border-radius: 5px 5px 0 0;
+      transform: rotateX(-10deg);
+    }
+
+    .wheel {
+      position: absolute;
+      bottom: -10px;
+      width: 20px;
+      height: 20px;
+      background: #000;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      animation: rotateWheel 0.4s linear infinite;
+    }
+
+    .front-wheel { left: 80px; }
+    .back-wheel { left: 20px; }
+
+    .headlight {
+      position: absolute;
+      top: -10px;
+      right: -5px;
+      width: 10px;
+      height: 10px;
+      background: var(--headlight-glow);
+      border-radius: 50%;
+      box-shadow: 0 0 15px 5px var(--headlight-glow), 20px 0 30px 10px var(--headlight-glow);
+      animation: headlightGlow 2s ease-in-out infinite;
+    }
+
+    .headlight.left {
+      right: auto;
+      left: -5px;
+    }
+
+    @keyframes headlightGlow {
+      0%, 100% { box-shadow: 0 0 15px 5px var(--headlight-glow), 20px 0 30px 10px var(--headlight-glow); }
+      50% { box-shadow: 0 0 20px 8px var(--headlight-glow), 30px 0 40px 15px var(--headlight-glow); }
+    }
+
+    .exhaust {
+      position: absolute;
+      bottom: 10px;
+      left: -5px;
+      width: 5px;
+      height: 5px;
+      background: var(--exhaust-smoke);
+      border-radius: 50%;
+      animation: exhaustSmoke 1.5s ease-out infinite;
+    }
+
+    .exhaust:nth-child(2) { animation-delay: 0.3s; }
+    .exhaust:nth-child(3) { animation-delay: 0.6s; }
+
+    @keyframes exhaustSmoke {
+      0% { transform: translateX(0) scale(1); opacity: 0.7; }
+      100% { transform: translateX(-30px) scale(2); opacity: 0; }
+    }
+
+    @keyframes carMove {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-2px); }
+    }
+
+    @keyframes carShake {
+      0%, 100% { transform: rotateZ(0deg); }
+      25% { transform: rotateZ(0.5deg); }
+      75% { transform: rotateZ(-0.5deg); }
+    }
+
+    @keyframes rotateWheel {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    #services {
+      background: var(--background-light);
+    }
+
+    .services-intro {
+      text-align: center;
+      margin-bottom: clamp(20px, 4vw, 30px);
+      font-size: clamp(14px, 2.2vw, 16px);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(clamp(240px, 32vw, 300px), 1fr));
+      gap: clamp(20px, 4vw, 35px);
+    }
+
+    .services-grid h3 {
+      grid-column: 1 / -1;
+      font-size: clamp(1.5rem, 3.5vw, 2rem);
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: var(--primary-color);
+    }
+
+    .service-card {
+      background: var(--background-white);
+      padding: clamp(20px, 4vw, 35px);
+      text-align: center;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+      transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+      min-height: clamp(260px, 38vw, 280px);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+      background: #f0f7ff;
+    }
+
+    .service-icon {
+      font-size: clamp(2rem, 6vw, 2.8rem);
+      color: var(--primary-color);
+      margin-bottom: clamp(15px, 3.5vw, 18px);
+    }
+
+    .service-card h4 {
+      font-size: clamp(1.2rem, 2.8vw, 1.4rem);
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      font-size: clamp(0.9rem, 2.2vw, 1rem);
+      flex-grow: 1;
+    }
+
+    .service-icon i {
+      transition: transform 0.3s;
+    }
+
+    .service-card:hover .service-icon i {
+      animation: beat 0.6s ease-in-out infinite;
+    }
+
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    .instagram-cta {
+      background: linear-gradient(135deg, #405DE6, #833AB4, #E1306C, #FCAF45);
+      padding: clamp(35px, 9vw, 70px) clamp(20px, 5vw, 35px);
+      border-radius: 15px;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    }
+
+    .instagram-cta i {
+      font-size: clamp(3rem, 7vw, 4.5rem);
+      margin-bottom: clamp(15px, 3.5vw, 18px);
+      transition: transform 0.3s;
+    }
+
+    .instagram-cta:hover i {
+      transform: scale(1.15);
+    }
+
+    .instagram-cta h3 {
+      font-size: clamp(2rem, 4.5vw, 2.8rem);
+    }
+
+    .instagram-cta p {
+      font-size: clamp(1rem, 2.2vw, 1.2rem);
+      margin-bottom: clamp(20px, 4vw, 30px);
+    }
+
+    .instagram-cta .btn {
+      background: #fff;
+      color: var(--secondary-color);
+      font-size: clamp(14px, 2.2vw, 16px);
+    }
+
+    #booking, #contact {
+      background: url('images/shop-bg.jpg') no-repeat center center/cover;
+      background-attachment: fixed;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #booking::before, #contact::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(0, 123, 255, 0.75), rgba(52, 58, 64, 0.75));
+      z-index: 1;
+    }
+
+    #booking .container, #contact .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    .contact-wrapper {
+      max-width: clamp(500px, 85vw, 700px);
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.97);
+      padding: clamp(20px, 6vw, 35px);
+      border-radius: 15px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+      backdrop-filter: blur(6px);
+      position: relative;
+      z-index: 2;
+    }
+
+    .contact-form .form-group {
+      margin-bottom: clamp(15px, 2.5vw, 18px);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-form .form-group:hover {
+      transform: scale(1.03);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    }
+
+    .contact-form input, .contact-form textarea, .contact-form select {
+      width: 100%;
+      padding: clamp(10px, 2.5vw, 14px);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(14px, 2.2vw, 16px);
+      color: var(--text-color);
+      background: rgba(255, 255, 255, 0.85);
+      transition: border-color 0.3s, box-shadow 0.3s, transform 0.2s;
+    }
+
+    .contact-form input:focus, .contact-form textarea:focus, .contact-form select:focus {
+      border-color: var(--primary-color);
+      box-shadow: 0 0 6px rgba(0, 123, 255, 0.6);
+      outline: none;
+      transform: scale(1.02);
+    }
+
+    .contact-form select {
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='%23007bff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E") no-repeat right 12px center;
+      background-size: 14px;
+    }
+
+    .contact-form select:required:invalid {
+      color: var(--text-color);
+    }
+
+    .contact-form option[value=""][disabled] {
+      display: none;
+    }
+
+    .contact-form .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: clamp(15px, 2.5vw, 18px);
+    }
+
+    .contact-form button {
+      width: 100%;
+      padding: clamp(12px, 2.5vw, 14px);
+      background: var(--whatsapp-color);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: clamp(1rem, 2.2vw, 1.1rem);
+      font-weight: 600;
+      transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .contact-form button:hover {
+      background: #1eb356;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+    }
+
+    .contact-form button:active {
+      transform: scale(0.97);
+    }
+
+    .loading-spinner {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid var(--primary-color);
+      border-radius: 50%;
+      width: 28px;
+      height: 28px;
+      animation: spin 1s linear infinite;
+    }
+
+    .contact-form button.loading .loading-spinner {
+      display: block;
+    }
+
+    .contact-form button.loading span, .contact-form button.loading i {
+      opacity: 0;
+    }
+
+    @keyframes spin {
+      0% { transform: translate(-50%, -50%) rotate(0deg); }
+      100% { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+
+    .map-container {
+      margin-top: clamp(30px, 6vw, 60px);
+      border-radius: 15px;
+      overflow: hidden;
+      border: 3px solid var(--primary-color);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+      position: relative;
+      height: clamp(280px, 55vw, 450px);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .map-container:hover {
+      transform: scale(1.03);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35);
+    }
+
+    .map-container::before {
+      content: '';
+      position: absolute;
+      top: -12px;
+      left: -12px;
+      right: -12px;
+      bottom: -12px;
+      border: 2px dashed var(--primary-color);
+      border-radius: 18px;
+      z-index: -1;
+      opacity: 0.35;
+    }
+
+    .map-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .particles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .particle {
+      position: absolute;
+      background: var(--particle-color);
+      border-radius: 50%;
+      animation: float 8s infinite ease-in-out;
+      opacity: 0.5;
+    }
+
+    .particle:nth-child(1) { width: 5px; height: 5px; top: 10%; left: 10%; animation-duration: 10s; }
+    .particle:nth-child(2) { width: 3px; height: 3px; top: 20%; left: 30%; animation-duration: 12s; animation-delay: 1s; }
+    .particle:nth-child(3) { width: 6px; height: 6px; top: 30%; left: 50%; animation-duration: 9s; animation-delay: 2s; }
+    .particle:nth-child(4) { width: 4px; height: 4px; top: 40%; left: 70%; animation-duration: 11s; animation-delay: 3s; }
+    .particle:nth-child(5) { width: 5px; height: 5px; top: 50%; left: 20%; animation-duration: 10s; animation-delay: 4s; }
+    .particle:nth-child(6) { width: 3px; height: 3px; top: 60%; left: 40%; animation-duration: 13s; animation-delay: 5s; }
+    .particle:nth-child(7) { width: 6px; height: 6px; top: 70%; left: 60%; animation-duration: 11s; animation-delay: 6s; }
+    .particle:nth-child(8) { width: 4px; height: 4px; top: 80%; left: 15%; animation-duration: 12s; animation-delay: 7s; }
+    .particle:nth-child(9) { width: 5px; height: 5px; top: 90%; left: 35%; animation-duration: 10s; animation-delay: 8s; }
+    .particle:nth-child(10) { width: 3px; height: 3px; top: 25%; left: 55%; animation-duration: 11s; animation-delay: 9s; }
+
+    @keyframes float {
+      0% { transform: translate(0, 0); opacity: 0.5; }
+      50% { transform: translate(30px, -30px); opacity: 0.8; }
+      100% { transform: translate(0, 0); opacity: 0.5; }
+    }
+
+    footer {
+      background: var(--secondary-color);
+      color: var(--dark-text);
+      padding: clamp(35px, 9vw, 60px) 0 clamp(20px, 5vw, 30px);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      gap: clamp(20px, 5vw, 35px);
+      margin-bottom: clamp(20px, 5vw, 35px);
+    }
+
+    .footer-col h4 {
+      color: var(--dark-heading);
+      margin-bottom: clamp(15px, 3.5vw, 18px);
+      font-size: clamp(1rem, 2.2vw, 1.2rem);
+    }
+
+    .footer-col p, .footer-col a, .footer-col li {
+      color: var(--dark-text);
+      text-decoration: none;
+      font-size: clamp(0.9rem, 2.2vw, 1rem);
+      transition: color 0.3s;
+    }
+
+    .footer-col a:hover {
+      color: var(--primary-color);
+    }
+
+    .footer-col ul {
+      list-style: none;
+    }
+
+    .footer-col li {
+      margin-bottom: clamp(8px, 2.5vw, 10px);
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .footer-col i {
+      margin-right: 10px;
+      width: 20px;
+      color: var(--primary-color);
+      margin-top: 5px;
+    }
+
+    .footer-social {
+      margin-top: clamp(15px, 3.5vw, 18px);
+    }
+
+    .footer-social a {
+      font-size: clamp(1.2rem, 3vw, 1.5rem);
+      margin-right: clamp(10px, 2.5vw, 15px);
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: clamp(20px, 5vw, 30px);
+      border-top: 1px solid var(--dark-border);
+      font-size: clamp(0.8rem, 1.8vw, 0.9rem);
+    }
+
+    .scroll-to-top {
+      position: fixed;
+      bottom: clamp(20px, 5vw, 30px);
+      left: clamp(20px, 5vw, 30px);
+      width: clamp(40px, 9vw, 50px);
+      height: clamp(40px, 9vw, 50px);
+      background: var(--primary-color);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: clamp(20px, 4.5vw, 24px);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+      z-index: 100;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s, transform 0.2s;
+    }
+
+    .scroll-to-top:hover {
+      background: #0056b3;
+      transform: translateY(-4px);
+    }
+
+    .scroll-to-top.show {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .chat-launcher {
+      position: fixed;
+      bottom: clamp(20px, 5vw, 30px);
+      right: clamp(20px, 5vw, 30px);
+      width: clamp(50px, 11vw, 60px);
+      height: clamp(50px, 11vw, 60px);
+      background: var(--primary-color);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: clamp(24px, 5.5vw, 30px);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.35);
+      z-index: 101;
+      transition: transform 0.3s;
+    }
+
+    .chat-launcher:hover {
+      transform: scale(1.15);
+    }
+
+    .chat-widget {
+      position: fixed;
+      bottom: clamp(80px, 16vw, 100px);
+      right: clamp(20px, 5vw, 30px);
+      width: clamp(280px, 85vw, 340px);
+      max-width: calc(100% - 40px);
+      background: var(--background-white);
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      z-index: 100;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(25px);
+      transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+    }
+
+    .chat-widget.show {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .chat-widget-header {
+      background: var(--primary-color);
+      color: #fff;
+      padding: clamp(10px, 2.5vw, 14px) clamp(15px, 3.5vw, 18px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .chat-widget-header h4 {
+      margin: 0;
+      font-size: clamp(1rem, 2.2vw, 1.1rem);
+    }
+
+    .chat-widget-header .close-btn {
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: clamp(20px, 4.5vw, 24px);
+      cursor: pointer;
+    }
+
+    .chat-widget-body {
+      padding: clamp(15px, 3.5vw, 25px) clamp(15px, 3.5vw, 18px);
+      text-align: center;
+    }
+
+    .chat-widget-body .icon {
+      font-size: clamp(2rem, 5.5vw, 2.8rem);
+      color: var(--primary-color);
+      margin-bottom: clamp(10px, 2.5vw, 15px);
+    }
+
+    .chat-widget-body h5 {
+      font-size: clamp(1rem, 2.2vw, 1.2rem);
+      margin-bottom: clamp(8px, 2.5vw, 10px);
+    }
+
+    .chat-widget-body p {
+      font-size: clamp(0.9rem, 1.8vw, 1rem);
+      margin-bottom: clamp(15px, 3.5vw, 25px);
+    }
+
+    .chat-widget-body .btn-chat {
+      background: var(--whatsapp-color);
+      width: 100%;
+      padding: clamp(10px, 2.5vw, 12px);
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 992px) {
+      .about-container {
+        grid-template-columns: 1fr;
+        gap: clamp(20px, 5vw, 30px);
+        text-align: center;
+      }
+
+      .car-animation-container {
+        margin: 0 auto;
+        max-width: 450px;
+        min-height: clamp(180px, 40vw, 240px);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--background-white);
+        padding: clamp(15px, 3.5vw, 18px) 0;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      }
+
+      .nav-menu.active {
+        display: flex;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .nav-links li {
+        margin: clamp(8px, 2.5vw, 10px) 0;
+      }
+
+      .nav-social {
+        margin-top: clamp(15px, 3.5vw, 18px);
+        padding-top: clamp(15px, 3.5vw, 18px);
+        border-top: 1px solid var(--border-color);
+      }
+
+      .nav-social a {
+        margin: 0 clamp(8px, 2.5vw, 10px);
+      }
+
+      .nav-toggle {
+        display: block;
+      }
+
+      .contact-form .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .chat-widget {
+        width: clamp(260px, 92vw, 300px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .navbar-brand .full-name {
+        display: none;
+      }
+
+      .navbar-brand .short-name {
+        display: inline;
+      }
+
+      .navbar-brand {
+        font-size: clamp(1.2rem, 3vw, 1.5rem);
+      }
+
+      .section-title h2 {
+        font-size: clamp(1.8rem, 4.5vw, 2.2rem);
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .car-animation-container {
+        width: clamp(200px, 90vw, 300px);
+        min-height: clamp(140px, 35vw, 180px);
+      }
+
+      .moon {
+        width: clamp(25px, 7vw, 30px);
+        height: clamp(25px, 7vw, 30px);
+        top: 10px;
+        right: 10px;
+        box-shadow: 0 0 12px 4px var(--moon-glow);
+      }
+
+      .star:nth-child(1) { width: 1.5px; height: 1.5px; }
+      .star:nth-child(2) { width: 2px; height: 2px; }
+      .star:nth-child(3) { width: 1.5px; height: 1.5px; }
+      .star:nth-child(4) { width: 2px; height: 2px; }
+      .star:nth-child(5) { width: 1.5px; height: 1.5px; }
+      .star:nth-child(6) { width: 2px; height: 2px; }
+      .star:nth-child(7) { width: 1.5px; height: 1.5px; }
+      .star:nth-child(8) { width: 2px; height: 2px; }
+      .star:nth-child(9) { width: 1.5px; height: 1.5px; }
+      .star:nth-child(10) { width: 2px; height: 2px; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoWash",
+    "name": "OZON Detailing & Car Wash",
+    "image": "images/og-image.jpg",
+    "@id": "https://www.your-ozon-website.com/",
+    "url": "https://www.your-ozon-website.com/",
+    "telephone": "+91-9447405746",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kolathakkara, Manipuram",
+      "addressLocality": "Omassery",
+      "postalCode": "673582",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 11.3688816,
+      "longitude": 75.9406808
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "08:00",
+      "closes": ["21:00", "21:00", "21:00", "21:00", "21:00", "21:00", "15:00"]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "120"
+    },
+    "makesOffer": {
+      "@type": "Offer",
+      "itemOffered": [
+        {
+          "@type": "Service",
+          "name": "Car and Bike Detailing"
+        },
+        {
+          "@type": "Service",
+          "name": "Ceramic and Graphene Coating"
+        },
+        {
+          "@type": "Service",
+          "name": "Paint Protection Film"
+        }
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+  <nav class="navbar" id="main-nav">
+    <div class="container">
+      <a href="#home" class="navbar-brand">
+        <img src="images/icon.png" alt="OZON Detailing Logo" class="logo-img" loading="lazy">
+        <span class="full-name">OZON Detailing</span>
+        <span class="short-name">OZON</span>
+      </a>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#our-work">Our Work</a></li>
+          <li><a href="#booking">Booking</a></li>
+          <li><a href="#contact">Feedback</a></li>
+          <li><a href="#footer-contact">Contact</a></li>
+        </ul>
+        <div class="nav-social">
+          <a href="https://www.instagram.com/ozon_detailing_/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/919447405746" aria-label="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+        </div>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+    </div>
+  </nav>
+
+  <section id="home" class="section">
+    <div class="container">
+      <div class="home-content">
+        <h1>Welcome to OZON Detailing & Car Wash</h1>
+        <p>The ultimate destination for vehicle care. We bring your car back to its showroom glory.</p>
+        <a href="#booking" class="btn">Book an Appointment</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section fade-in-section">
+    <div class="container about-container">
+      <div class="car-animation-container">
+        <div class="night-sky">
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="moon"></div>
+        </div>
+        <div class="road-and-car">
+          <div class="road"></div>
+          <div class="animated-car-body">
+            <div class="animated-car-top"></div>
+            <div class="wheel front-wheel"></div>
+            <div class="wheel back-wheel"></div>
+            <div class="headlight"></div>
+            <div class="headlight left"></div>
+            <div class="exhaust"></div>
+            <div class="exhaust"></div>
+            <div class="exhaust"></div>
+          </div>
+        </div>
+      </div>
+      <div class="about-content">
+        <h3>About OZON Detailing & Car Wash</h3>
+        <p><strong>Welcome to OZON Detailing and Car Wash, your trusted partner in vehicle care.</strong> With years of expertise, we specialize in transforming cars and bikes into showroom-worthy masterpieces. Our team is dedicated to delivering unmatched quality using cutting-edge techniques and premium products.</p>
+        <p>From meticulous detailing to advanced protective coatings, we ensure every vehicle leaves our facility looking its absolute best. Customer satisfaction is our priority, and we take pride in our attention to detail and commitment to excellence.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section fade-in-section">
+    <div class="container">
+      <div class="section-title"><h2>Our Services</h2></div>
+      <div class="services-intro">
+        <p>Explore our comprehensive range of vehicle care services, designed to enhance and protect your car or bike.</p>
+      </div>
+      <div class="services-grid">
+        <h3>Washing Services</h3>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-water"></i></div>
+          <h4>Foam Wash (Bike & Car)</h4>
+          <p>Gentle foam cannon wash for a spotless exterior on both bikes and cars.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-water"></i></div>
+          <h4>Body Wash (Bike & Car)</h4>
+          <p>Thorough exterior cleaning for a spotless shine on bikes and cars.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-water"></i></div>
+          <h4>Normal Wash (Bike & Car)</h4>
+          <p>Standard wash for everyday cleaning needs for bikes and cars.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-water"></i></div>
+          <h4>Full Wash (Bike & Car)</h4>
+          <p>Comprehensive wash with detailed attention to every surface for bikes and cars.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-water"></i></div>
+          <h4>Detailing Wash (Bike & Car)</h4>
+          <p>Precision wash with meticulous detailing for bikes and cars.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+          <h4>Ceramic Wash (Bike & Car)</h4>
+          <p>Specialized wash with ceramic protection for lasting shine.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-tools"></i></div>
+          <h4>Engine Steam Wash</h4>
+          <p>Steam cleaning for a spotless engine bay.</p>
+        </div>
+        <h3>Coating & Protection</h3>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+          <h4>Ceramic Coating (Bike & Car)</h4>
+          <p>Durable coating for enhanced protection and shine.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-gem"></i></div>
+          <h4>Borophane Coating (Bike & Car)</h4>
+          <p>Superior chemical resistance and gloss with comprehensive protection.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-atom"></i></div>
+          <h4>Graphene Coating (Bike & Car)</h4>
+          <p>Unmatched durability with protection for glass, alloy, wheels, and tires.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-film"></i></div>
+          <h4>Paint Protection Film (PPF) (Bike & Car)</h4>
+          <p>Self-healing film to protect against scratches and chips.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-spray-can"></i></div>
+          <h4>Underbody Coating</h4>
+          <p>Durable undercoating to protect against rust and debris.</p>
+        </div>
+        <h3>Other Services</h3>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-spray-can"></i></div>
+          <h4>Interior Cleaning</h4>
+          <p>Thorough detailing of all interior surfaces for a pristine cabin.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-motorcycle"></i></div>
+          <h4>Normal Polish (Bike & Car)</h4>
+          <p>Basic polishing to restore shine, primarily for bikes and cars.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-spray-can"></i></div>
+          <h4>Custom Painting (Bike & Car)</h4>
+          <p>Precision painting for custom vehicle finishes.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
+          <h4>Headlight Restoration</h4>
+          <p>Restores clarity to foggy or yellowed headlights.</p>
+        </div>
+        <div class="service-card slide-in">
+          <div class="service-icon"><i class="fas fa-window-maximize"></i></div>
+          <h4>Window Tinting</h4>
+          <p>Professional tinting to reduce heat and glare.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="our-work" class="section fade-in-section">
+    <div class="container">
+      <div class="instagram-cta">
+        <i class="fab fa-instagram"></i>
+        <h3>See Our Work on Instagram</h3>
+        <p>Please visit our page to see the latest transformations and our commitment to quality.</p>
+        <a href="https://www.instagram.com/ozon_detailing_/" target="_blank" class="btn">Visit Our Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking" class="section fade-in-section">
+    <div class="particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+    <div class="container">
+      <div class="section-title"><h2>Book an Appointment</h2></div>
+      <div class="contact-wrapper">
+        <form class="contact-form" id="booking-form">
+          <div class="form-group"><input type="text" id="booking-name" placeholder="Your Name" required></div>
+          <div class="form-group"><input type="tel" id="booking-phone" placeholder="Your Phone Number" required></div>
+          <div class="form-grid">
+            <div class="form-group"><input type="date" id="booking-date" required></div>
+            <div class="form-group"><input type="time" id="booking-time" required></div>
+          </div>
+          <div class="form-group">
+            <select id="booking-service" required>
+              <option value="" disabled selected>Select a Service</option>
+              <option value="Foam Wash (Bike & Car)">Foam Wash (Bike & Car)</option>
+              <option value="Body Wash (Bike & Car)">Body Wash (Bike & Car)</option>
+              <option value="Normal Wash (Bike & Car)">Normal Wash (Bike & Car)</option>
+              <option value="Full Wash (Bike & Car)">Full Wash (Bike & Car)</option>
+              <option value="Detailing Wash (Bike & Car)">Detailing Wash (Bike & Car)</option>
+              <option value="Ceramic Wash (Bike & Car)">Ceramic Wash (Bike & Car)</option>
+              <option value="Engine Steam Wash">Engine Steam Wash</option>
+              <option value="Interior Cleaning">Interior Cleaning</option>
+              <option value="Normal Polish (Bike & Car)">Normal Polish (Bike & Car)</option>
+              <option value="Ceramic Coating (Bike & Car)">Ceramic Coating (Bike & Car)</option>
+              <option value="Borophane Coating (Bike & Car)">Borophane Coating (Bike & Car)</option>
+              <option value="Graphene Coating (Bike & Car)">Graphene Coating (Bike & Car)</option>
+              <option value="Paint Protection Film (PPF) (Bike & Car)">Paint Protection Film (PPF) (Bike & Car)</option>
+              <option value="Underbody Coating">Underbody Coating</option>
+              <option value="Custom Painting (Bike & Car)">Custom Painting (Bike & Car)</option>
+              <option value="Headlight Restoration">Headlight Restoration</option>
+              <option value="Window Tinting">Window Tinting</option>
+              <option value="Other">Other (Please specify below)</option>
+            </select>
+          </div>
+          <div class="form-group"><textarea id="booking-message" rows="3" placeholder="Additional details or specific vehicle info..."></textarea></div>
+          <button type="submit" class="btn"><i class="fab fa-whatsapp"></i> <span>Request Appointment</span> <div class="loading-spinner"></div></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section fade-in-section">
+    <div class="particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+    <div class="container">
+      <div class="section-title"><h2>Feedback & Location</h2></div>
+      <div class="contact-wrapper">
+        <form class="contact-form" id="whatsapp-form">
+          <div class="form-group"><input type="text" id="name" placeholder="Your Name" required></div>
+          <div class="form-group"><input type="tel" id="phone" placeholder="Your Phone Number (Optional)"></div>
+          <div class="form-group"><textarea id="message" rows="5" placeholder="Your Inquiry or Feedback..." required></textarea></div>
+          <button type="submit" class="btn"><i class="fab fa-whatsapp"></i> <span>Send via WhatsApp</span> <div class="loading-spinner"></div></button>
+        </form>
+      </div>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.5316269903683!2d75.9406808!3d11.3688816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba669000d9280fd%3A0x5296f3cb70cf8a00!2sOzon%20Detailing%20%26%20Car%20wash!5e0!3m2!1sen!2sin!4v1757337563199!5m2!1sen!2sin" loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer-contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#our-work">Our Work</a></li>
+            <li><a href="#booking">Booking</a></li>
+            <li><a href="#contact">Feedback</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact & Location</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i><span>OZON Detailing & Car Wash<br>Kolathakkara, Manipuram<br>Puthoor (PO), Omassery 673582</span></li>
+            <li><i class="fas fa-phone"></i><a href="tel:+919447405746">+91-9447405746</a></li>
+            <li><i class="fas fa-envelope"></i><a href="mailto:contact@ozondetailing.com">contact@ozondetailing.com</a></li>
+            <li><i class="fas fa-clock"></i><span>Mon-Sat: 8:00 AM - 9:00 PM<br>Sun: 8:00 AM - 3:00 PM</span></li>
+          </ul>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/ozon_detailing_/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/919447405746" aria-label="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 OZON Detailing & Car Wash. All rights reserved. Designed by Suhaim Soft.
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="scroll-to-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></a>
+
+  <div class="chat-launcher" id="chat-launcher"><i class="fas fa-comment-dots"></i></div>
+  <div class="chat-widget" id="chat-widget">
+    <div class="chat-widget-header">
+      <h4>Chat with Us</h4>
+      <button class="close-btn" id="chat-close-btn">&times;</button>
+    </div>
+    <div class="chat-widget-body">
+      <div class="icon"><i class="fas fa-car-side"></i></div>
+      <h5>Welcome to OZON Detailing & Car Wash!</h5>
+      <p>Have a question? We're here to help. Chat with us on WhatsApp:</p>
+      <a href="https://wa.me/919447405746?text=Hello%20OZON%20Detailing!" class="btn btn-chat" target="_blank"><i class="fab fa-whatsapp"></i> Chat on +91 94474 05746</a>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const WHATSAPP_NUMBER = '919447405746';
+      const navToggle = document.getElementById('nav-toggle');
+      const navMenu = document.getElementById('nav-menu');
+      const themeToggle = document.getElementById('theme-toggle');
+      const scrollToTopBtn = document.querySelector('.scroll-to-top');
+      const chatLauncher = document.getElementById('chat-launcher');
+      const chatWidget = document.getElementById('chat-widget');
+      const chatCloseBtn = document.getElementById('chat-close-btn');
+
+      // Navigation toggle for mobile
+      navToggle.addEventListener('click', () => navMenu.classList.toggle('active'));
+
+      // Close mobile menu when clicking a nav link
+      document.querySelectorAll('.nav-links a[href^="#"]').forEach(link => {
+        link.addEventListener('click', () => {
+          if (window.innerWidth <= 768) navMenu.classList.remove('active');
+        });
+      });
+
+      // Active nav link on scroll
+      window.addEventListener('scroll', () => {
+        let current = '';
+        document.querySelectorAll('section, footer').forEach(section => {
+          const sectionTop = section.offsetTop;
+          if (window.scrollY >= sectionTop - 150) current = section.getAttribute('id');
+        });
+        document.querySelectorAll('.nav-links a').forEach(a => {
+          a.classList.remove('active');
+          if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+        });
+        scrollToTopBtn.classList.toggle('show', window.scrollY > 300);
+      });
+
+      // Fade-in and slide-in animations for sections
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      document.querySelectorAll('.fade-in-section, .slide-in').forEach(fader => observer.observe(fader));
+
+      // Theme toggle
+      themeToggle.addEventListener('click', () => {
+        document.documentElement.dataset.theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        themeToggle.innerHTML = `<i class="fas fa-${document.documentElement.dataset.theme === 'dark' ? 'sun' : 'moon'}"></i>`;
+        localStorage.setItem('theme', document.documentElement.dataset.theme);
+      });
+
+      if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.dataset.theme = 'dark';
+        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+      }
+
+      // Chat widget toggle
+      chatLauncher.addEventListener('click', () => chatWidget.classList.toggle('show'));
+      chatCloseBtn.addEventListener('click', () => chatWidget.classList.remove('show'));
+
+      // Simulated storage using localStorage
+      const saveToLocalStorage = (key, data) => {
+        let storedData = JSON.parse(localStorage.getItem(key)) || [];
+        storedData.push(data);
+        localStorage.setItem(key, JSON.stringify(storedData));
+      };
+
+      // Booking form submission
+      document.getElementById('booking-form').addEventListener('submit', e => {
+        e.preventDefault();
+        const submitButton = e.target.querySelector('button');
+        submitButton.classList.add('loading');
+        submitButton.disabled = true;
+
+        const name = document.getElementById('booking-name').value;
+        const phone = document.getElementById('booking-phone').value;
+        const date = document.getElementById('booking-date').value;
+        const time = document.getElementById('booking-time').value;
+        const service = document.getElementById('booking-service').value;
+        const message = document.getElementById('booking-message').value;
+
+        const bookingData = { name, phone, date, time, service, message, timestamp: new Date().toISOString() };
+        saveToLocalStorage('bookings', bookingData);
+
+        setTimeout(() => {
+          let text = `*Appointment Request*\nName: ${name}\nPhone: ${phone}\nDate: ${date}\nTime: ${time}\nService: ${service}`;
+          if (message) text += `\nDetails: ${message}`;
+          window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`, '_blank');
+          submitButton.classList.remove('loading');
+          submitButton.disabled = false;
+          e.target.reset();
+          alert('Appointment request sent successfully!');
+        }, 2000);
+      });
+
+      // Feedback form submission
+      document.getElementById('whatsapp-form').addEventListener('submit', e => {
+        e.preventDefault();
+        const submitButton = e.target.querySelector('button');
+        submitButton.classList.add('loading');
+        submitButton.disabled = true;
+
+        const name = document.getElementById('name').value;
+        const phone = document.getElementById('phone').value;
+        const message = document.getElementById('message').value;
+
+        const feedbackData = { name, phone, message, timestamp: new Date().toISOString() };
+        saveToLocalStorage('feedback', feedbackData);
+
+        setTimeout(() => {
+          let text = `*Feedback/Inquiry*\nName: ${name}`;
+          if (phone) text += `\nPhone: ${phone}`;
+          text += `\nMessage: ${message}`;
+          window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`, '_blank');
+          submitButton.classList.remove('loading');
+          submitButton.disabled = false;
+          e.target.reset();
+          alert('Feedback sent successfully!');
+        }, 2000);
+      });
+    });
+
+    // Service Worker Registration for Offline Support
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then(registration => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        }).catch(error => {
+          console.error('Service Worker registration failed:', error);
+        });
+      });
+    }
+  </script>
+</body>
+</html>
